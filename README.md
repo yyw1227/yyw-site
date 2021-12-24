@@ -1,5 +1,7 @@
 # yyw-site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4643737b-999f-42f2-98c9-cb9f8c4f2d62/deploy-status)](https://app.netlify.com/sites/upbeat-minsky-373460/deploys)
+
 ## Project setup
 ```
 npm install
