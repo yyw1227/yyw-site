@@ -3,10 +3,26 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
+<script>
+import { remInitSize } from "@/common/util"
+export default {
+  name: 'App',
+  data () {
+    return {
+
+    }
+  },
+  created () { },
+  mounted () {
+    remInitSize(1920, 1920)
+  },
+}
+</script>
 <style lang="scss">
+@import '~@/assets/css/common.css';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

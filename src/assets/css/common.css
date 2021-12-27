@@ -1,0 +1,105 @@
+@import "./normalize.css";
+.flex-def {
+    display: flex;
+}
+
+.flex-zCenter {
+    justify-content: center;
+}
+
+.flex-zBetween {
+    justify-content: space-between;
+}
+
+.flex-zAround {
+    justify-content: space-around;
+}
+
+.flex-zEnd {
+    justify-content: flex-end;
+}
+
+.flex-zStart {
+    justify-content: start;
+}
+
+.flex-cCenter {
+    align-items: center;
+}
+
+.flex-cStart {
+    align-items: start;
+}
+
+.flex-cEnd {
+    align-items: flex-end;
+}
+
+.flex-cBaseline {
+    align-items: baseline;
+}
+
+.flex-cStretch {
+    align-items: stretch;
+}
+
+.flex-zTopBottom {
+    flex-direction: column;
+}
+
+.flex-zBottomTop {
+    flex-direction: column-reverse;
+}
+
+.flex-zLeftRight {
+    flex-direction: row;
+}
+
+.flex-zRightLeft {
+    flex-direction: row-reverse;
+}
+
+.flex-item {
+    flex-grow: 1;
+}
+
+.flex-order {
+    order: 1;
+}
+
+.flex-max {
+    flex: 1;
+}
+
+.flex-warp {
+    flex-wrap: wrap;
+}
+
+.overflow1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflow2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.overflow3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
