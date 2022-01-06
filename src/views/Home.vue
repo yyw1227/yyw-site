@@ -1,6 +1,14 @@
 <template>
   <div>
-    <div class="test-box" @click="screenfull"></div>
+    <div
+      class="test-box"
+      @click="screenfull"
+    ></div>
+    <img
+      src="/static/avater-1.jpg"
+      alt=""
+      class="test-img"
+    >
     <el-row>
       <el-button @click="open2">Default</el-button>
       <el-button type="primary">Primary</el-button>
@@ -35,7 +43,7 @@ import { useFullscreen } from "@vueuse/core"
 import { ElMessage } from 'element-plus'
 export default {
   name: 'Home',
-  setup () {
+  setup() {
     const { isFullscreen, toggle } = useFullscreen()
     const screenfull = () => {
       toggle()
@@ -88,5 +96,8 @@ export default {
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
+}
+.test-img {
+  width: 2rem;
 }
 </style>
