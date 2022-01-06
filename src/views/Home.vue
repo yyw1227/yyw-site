@@ -5,7 +5,7 @@
       @click="screenfull"
     ></div>
     <img
-      src="/static/avater-1.jpg"
+      src="/static/test/avater-1.jpg"
       alt=""
       class="test-img"
     >
