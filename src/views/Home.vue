@@ -2,7 +2,7 @@
   <div>
     <div
       class="test-box"
-      @click="screenfull"
+      @click="screenFull"
     ></div>
     <img
       src="/static/test/avater-1.jpg"
@@ -45,7 +45,7 @@ export default {
   name: 'Home',
   setup() {
     const { isFullscreen, toggle } = useFullscreen()
-    const screenfull = () => {
+    const screenFull = () => {
       toggle()
     }
     const open2 = () => {
@@ -55,7 +55,7 @@ export default {
       })
     }
     return {
-      screenfull,
+      screenFull,
       open2,
       isFullscreen
     }
